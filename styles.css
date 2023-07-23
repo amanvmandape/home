@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header
+{
+    /* background-color: rgb(209 231 221); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg.jpg);
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#contact
+{
+    background-color: rgb(209 231 221);
+}
+
+i
+{
+    font-size: 32px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+body
+{
+    font-family: 'Quattrocento', serif;
+}
+
+.project-card
+{
+    transition-duration: 0.3s;
+}
+
+.project-card:hover
+{   transform:scale(1.10);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card
+{
+    margin: 0rem 1rem;
+}
+
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 150px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    transition-duration: 0.4s;
+}
+
+.cert-card:hover .overlay
+{
+    opacity: 0.8;
+
+}
