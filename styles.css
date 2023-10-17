@@ -3,12 +3,12 @@
 }
 
 #header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/bg1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/bg3.jpg);
     text-align: center;
     color: white;
     min-height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: left; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
